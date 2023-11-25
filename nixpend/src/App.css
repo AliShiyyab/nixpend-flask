@@ -1,0 +1,44 @@
+.App {
+  background-color: #DDECEE;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.form-for-submit {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+}
+
+.title-for-form{
+  width: 100%;
+  text-align: center;
+  color: #2D2D82;
+}
+
+.input-data-row{
+  width: 450px;
+  gap:20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.label-size {
+  width: 20%;
+  gap: 29px;
+  font-size: 18px;
+}
+
+.input-size {
+  width: 70%;
+}
+.submit-button {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+}
